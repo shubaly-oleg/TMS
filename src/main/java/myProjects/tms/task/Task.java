@@ -3,6 +3,13 @@ package myProjects.tms.task;
 import myProjects.tms.interfaces.TaskInterface;
 
 public class Task implements TaskInterface{
-	int id;
-	String name;
+	private int id;
+	private String name;
+	
+	public Task(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	
 }
