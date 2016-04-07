@@ -1,10 +1,6 @@
 package myProjects.tms;
 
-/**
- * Hello world!
- *
- */
-public class Start 
+public class Main 
 {
     public static void main( String[] args )
     {
