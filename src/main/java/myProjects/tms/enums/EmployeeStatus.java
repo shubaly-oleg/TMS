@@ -1,3 +1,3 @@
 package myProjects.tms.enums;
 
-public enum EmployeeStatus {FREE, BUSY, VACATION}
+public enum EmployeeStatus {FREE, BUSY}
