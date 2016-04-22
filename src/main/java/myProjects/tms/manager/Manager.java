@@ -1,8 +1,17 @@
 package myProjects.tms.manager;
 
+import java.util.LinkedList;
+import java.util.List;
+
+import myProjects.tms.employee.Employee;
 import myProjects.tms.interfaces.ManagerInterface;
+import myProjects.tms.task.Task;
 
 public class Manager implements ManagerInterface{
+	
+	List<Task> tasks = new LinkedList<Task>();
+    List<Employee> employees = new LinkedList<Employee>();
+	
 	private int id;
 	private String name;
 	
