@@ -1,4 +1,4 @@
-package myProjects.tms.interfaces;
+package myProjects.tms.employee;
 
 public interface EmployeeInterface {
 

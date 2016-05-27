@@ -1,7 +1,5 @@
 package myProjects.tms.employee;
 
-import myProjects.tms.interfaces.EmployeeInterface;
-
 public class Employee implements EmployeeInterface{
 	private int id;
 	private String name;

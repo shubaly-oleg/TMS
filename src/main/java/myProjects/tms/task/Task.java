@@ -1,7 +1,5 @@
 package myProjects.tms.task;
 
-import myProjects.tms.interfaces.TaskInterface;
-
 public class Task implements TaskInterface{
 	private int id;
 	private String name;
