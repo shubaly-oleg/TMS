@@ -1,5 +1,9 @@
 package myProjects.tms.employee;
 
-public interface EmployeeInterface {
+import java.util.List;
 
+public interface EmployeeInterface {
+    void addEmployee(int id, String name); //add new Employee
+    void disableEmployee(int id);
+    List<Employee> getEmployeeList();
 }

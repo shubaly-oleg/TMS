@@ -1,5 +1,9 @@
 package myProjects.tms.manager;
 
-public interface ManagerInterface {
+import java.util.List;
 
+public interface ManagerInterface {
+    void addManager(int id, String name); //add new manager
+    void disableManager(int id);
+    List<Manager> getManagerList();
 }
