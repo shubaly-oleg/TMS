@@ -6,8 +6,12 @@ target
 nbproject
 .idea
 *.iml
-.settings
 .project
 .classpath
 build.xml
 manifest.mf
+bin
+RemoteSystemsTempFiles
+.metadata
+.recommenders
+.settings
